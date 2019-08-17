@@ -45,11 +45,57 @@ header{
 .links a{
     text-decoration: none;
     color: #333;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
    
 }
+.links a:hover{
+    background-color: #17cf38;
+    font-style: italic;
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 10px auto;
+    
+}
+.pack{
+    background-color: #17cf38;
+    font-style: italic;
+    
+}
+.pack a{
+    margin: 5px 15px;
+    color: whitesmoke;
+
+}
+/* Landing area */
 .landingpage{
     width: 100%;
     height: 87vh;
     background: url(/img/landingpage1.jpg)center center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+    color: #17cf38;
+    font-family: 'Roboto', sans-serif;
+}
+.secondpara{
+    color: #17cf38;
+    font-style: italic;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.thirdpara{
+    border: 1px solid whitesmoke;
+    background-color: #17cf38;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.thirdpara a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
