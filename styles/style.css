@@ -40,6 +40,8 @@ header{
 .links li{
     margin: 30px 5px;
     
+   
+    
 } 
 
 .links a{
@@ -49,7 +51,7 @@ header{
     font-family: 'Roboto', sans-serif;
    
 }
-.links a:hover{
+.links li:hover{
     background-color: #17cf38;
     font-style: italic;
     font-size: 18px;
@@ -67,6 +69,35 @@ header{
     color: whitesmoke;
 
 }
+.submenu{
+    display: none;
+}
+.links li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: #17cf38;
+    margin-top: 2px;
+    margin-left: -15px;
+}
+.links li:hover .submenu ul{
+    display: block;
+   margin: 10px;
+}
+.links li:hover .submenu ul li{
+   width: 150px;
+   border-bottom: 1px solid whitesmoke;
+   text-align: left;
+  
+}
+.links li:hover .submenu ul li:last-child{
+   border-bottom: none;
+   
+ }
+ .links li:hover .submenu ul li a:hover {
+     color: whitesmoke;
+
+ }
+
 /* Landing area */
 .landingpage{
     width: 100%;
