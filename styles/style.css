@@ -133,6 +133,61 @@ h1{
 /* service */
 #services{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #fbfbfb;
+}
+.servicetitle{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.serviceheadpara{
+    text-align: center;
+    font-size: 18px;
+}
+.servicecontainer{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    display: block;
+    margin: 10px auto;
+}
+.innercontainer1, .innercontainer2{
+    display: flex;
+    margin-bottom: 20px;
+   
+
+}
+.servicewrap{
+    height: 300px;
+    width: 30%;
+    border: 2px groove #17cf38;
+    margin: 10px 7px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.icons i{
+    background-color: #17cf38;
+    height: 50px;
+    width: 50px;
+    color: white;
+    border-radius: 50%;
+    /* display: flex;
+    justify-content: center; */
+    padding: 5px 2px 2px 7px;
+}
+.iconheader{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
 }
