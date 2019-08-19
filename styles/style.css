@@ -130,6 +130,41 @@ h1{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+/* about */
+#aboutus{
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+}
+.abouttitle{
+    text-align: center;
+}
+.aboutwrap{
+    height: 90%;
+    width: 90%;
+   
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.aboutbigcontainer{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.aboutpara1, .aboutpara2{
+    text-align: center;
+}
+.aboutsmallcontainer{
+    height: 100%;
+    width: 35%;
+    
+}
 /* service */
 #services{
     width: 100%;
@@ -145,8 +180,8 @@ h1{
     font-size: 18px;
 }
 .servicecontainer{
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     background-color: white;
     display: block;
     margin: 10px auto;
