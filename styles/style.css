@@ -230,8 +230,6 @@ h1{
     width: 50px;
     color: white;
     border-radius: 50%;
-    /* display: flex;
-    justify-content: center; */
     padding: 5px 2px 2px 7px;
 }
 .iconheader{
@@ -242,9 +240,79 @@ h1{
     font-family: 'Roboto', sans-serif;
 
 }
+/* Promise section */
+.promise{
+    height: 100vh;
+    width: 100%;
+    background: url(/img/1320427672005.jpg) center center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.promtitle{
+    height: 10%;
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+}
+.prominner {
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+/* Space */
+.space{
+    width: 100%;
+    height: 3vh;
+    background-color: whitesmoke;
+}
 /* Footer */
 footer{
-    height: 40vh;
+    height: 100%;
     width: 100%;
     background-color: black;
+}
+.footercontent{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.footerbigcontainer{
+    height: 100%;
+    width: 65%;
+    display: flex;
+}
+.linkbox1, .linkbox2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.linkbox1 a, .linkbox2 a{
+    text-decoration: none;
+    color: whitesmoke;
+ }
+.linkbox1 a:hover, .linkbox2 a:hover{
+    text-decoration: none;
+    color: #17cf38;
+ }
+.footersmallcontainer{
+    height: 100%;
+    width: 35%;
+    
+}
+.footerdown{
+    height: 10%;
+    width: 100%;
+    background-color: #17cf38;
+    text-align: center;
 }
