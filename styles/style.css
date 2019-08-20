@@ -134,10 +134,11 @@ h1{
 #aboutus{
     height: 100vh;
     width: 100%;
-    background-color: #333;
+    background-color: #d0cdce;
 }
 .abouttitle{
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 .aboutwrap{
     height: 90%;
@@ -159,11 +160,26 @@ h1{
 }
 .aboutpara1, .aboutpara2{
     text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
 }
 .aboutsmallcontainer{
     height: 100%;
     width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
+}
+.aboutsubcontainer1{
+    height: 45%;
+    width: 100%;
+    background: url(/img/photo_2019-08-19_22-07-12.jpg) center center/cover no-repeat;
+}
+.aboutsubcontainer2{
+    height: 45%;
+    width: 100%;
+    background: url(/img/photo_2019-08-19_22-09-54.jpg) center center/cover no-repeat;
 }
 /* service */
 #services{
@@ -225,4 +241,10 @@ h1{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 
+}
+/* Footer */
+footer{
+    height: 40vh;
+    width: 100%;
+    background-color: black;
 }
