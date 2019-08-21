@@ -278,6 +278,51 @@ h1{
     height: 3vh;
     background-color: whitesmoke;
 }
+/* Packages */
+#packages{
+    height: 100vh;
+    width: 100%;
+    background-color: #d0cdce;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 10px auto;
+}
+.packagebtns{
+    height: 8vh;
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.photoonlybtn{
+    height: 100%;
+    width: 33%;
+    background-color: darkred;
+    cursor: pointer;
+    border-radius: 50px 0 0px 50px;
+}
+.filmonlybtn{
+    height: 100%;
+    width: 33%;
+    background-color: #333;
+    cursor: pointer;
+    
+}
+.combobtn{
+    height: 100%;
+    width: 33%;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0; 
+}
+.words{
+    color: whitesmoke;
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Footer */
 footer{
     height: 100%;
