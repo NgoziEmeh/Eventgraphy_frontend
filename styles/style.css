@@ -280,7 +280,7 @@ h1{
 }
 /* Packages */
 #packages{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: #d0cdce;
     font-family: 'Roboto', sans-serif;
@@ -295,6 +295,7 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+/* Photo only */
 .photoonlybtn{
     height: 100%;
     width: 33%;
@@ -324,7 +325,7 @@ h1{
     justify-content: center;
 }
 .photoonlyoptions{
-    height: 80vh;
+    height: 90vh;
     width: 90%;
     background-color: #fbfbfb;
     display: flex;
@@ -333,7 +334,7 @@ h1{
 }
 .photo{
     border: 1px solid #333;
-    height: 80vh;
+    height: 90vh;
     width: 24%;
 }
 .photoheader{
@@ -346,6 +347,44 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.price{
+    height: 10vh;
+    width: 100%;
+    background-color: #d0cdce;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photobody{
+    height: 60vh;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: left;
+    line-height: 20px;
+
+}
+.photobody i{
+    color: green;
+}
+
+.phototail{
+    width: 100%;
+    background-color: #d0cdce;
+    height: 5vh;
+}
+.phototail2{
+    width: 100%;
+    background-color: darkred;
+    height: 5vh;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 /* Footer */
 footer{
