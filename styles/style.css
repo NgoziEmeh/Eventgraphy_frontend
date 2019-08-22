@@ -278,7 +278,8 @@ h1{
     height: 3vh;
     background-color: whitesmoke;
 }
-/* Packages */
+/* Packages Section*/
+/* Packages: Common areas */
 #packages{
     height: 100%;
     width: 100%;
@@ -324,7 +325,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
-/* photo only */
+/* Packages: Photo only */
 .photoonlyoptions{
     height: 90vh;
     width: 90%;
@@ -388,7 +389,7 @@ h1{
     font-weight: bold;
 }
 
-/* Video only */
+/* Packages: Video only */
 
 .filmonlyoptions{
     height: 90vh;
@@ -445,6 +446,70 @@ h1{
 .filmtail2{
     width: 100%;
     background-color: #333;
+    height: 5vh;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+/* Packages: Photo + Video*/
+
+.combooptions{
+    height: 90vh;
+    width: 90%;
+    background-color: #fbfbfb;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.combo{
+    border: 1px solid #333;
+    height: 90vh;
+    width: 24%;
+}
+.comboheader{
+    height: 10vh;
+    width: 100%;
+    background-color: green;
+    color: whitesmoke;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    height: 10vh;
+    width: 100%;
+    background-color: #d0cdce;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.combobody{
+    height: 60vh;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: left;
+    line-height: 20px;
+
+}
+.combobody i{
+    color: green;
+}
+
+.combotail{
+    width: 100%;
+    background-color: #d0cdce;
+    height: 5vh;
+}
+.combotail2{
+    width: 100%;
+    background-color: green;
     height: 5vh;
     color: whitesmoke;
     display: flex;
