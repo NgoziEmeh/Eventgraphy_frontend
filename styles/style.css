@@ -327,7 +327,7 @@ h1{
 }
 /* Packages: Photo only */
 .photoonlyoptions{
-    height: 90vh;
+    height: 100%;
     width: 90%;
     background-color: #fbfbfb;
     display: flex;
@@ -336,7 +336,7 @@ h1{
 }
 .photo{
     border: 1px solid #333;
-    height: 90vh;
+    height: 100%;
     width: 24%;
 }
 .photoheader{
@@ -351,9 +351,9 @@ h1{
     justify-content: center;
 }
 .price{
-    height: 10vh;
+    height: 10%;
     width: 100%;
-    background-color: #d0cdce;
+    background-color: darkred;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: bold;
@@ -362,7 +362,7 @@ h1{
     justify-content: center;
 }
 .photobody{
-    height: 60vh;
+    height: 70%;
     width: 100%;
     background-color: whitesmoke;
     text-align: left;
@@ -370,10 +370,11 @@ h1{
 
 }
 .photobody i{
-    color: green;
+    color: darkred;
 }
 
 .phototail{
+    height: 5%;
     width: 100%;
     background-color: #d0cdce;
     height: 5vh;
@@ -392,7 +393,7 @@ h1{
 /* Packages: Video only */
 
 .filmonlyoptions{
-    height: 90vh;
+    height: 100%;
     width: 90%;
     background-color: #fbfbfb;
     display: flex;
@@ -401,7 +402,7 @@ h1{
 }
 .film{
     border: 1px solid #333;
-    height: 90vh;
+    height: 100%;
     width: 24%;
 }
 .filmheader{
@@ -416,7 +417,7 @@ h1{
     justify-content: center;
 }
 .price{
-    height: 10vh;
+    height: 10%;
     width: 100%;
     background-color: #d0cdce;
     font-family: 'Roboto', sans-serif;
@@ -427,7 +428,7 @@ h1{
     justify-content: center;
 }
 .filmbody{
-    height: 60vh;
+    height: 60%;
     width: 100%;
     background-color: whitesmoke;
     text-align: left;
@@ -435,7 +436,7 @@ h1{
 
 }
 .filmbody i{
-    color: green;
+    color: #333;
 }
 
 .filmtail{
@@ -456,7 +457,7 @@ h1{
 /* Packages: Photo + Video*/
 
 .combooptions{
-    height: 90vh;
+    height: 100%;
     width: 90%;
     background-color: #fbfbfb;
     display: flex;
@@ -465,7 +466,7 @@ h1{
 }
 .combo{
     border: 1px solid #333;
-    height: 90vh;
+    height: 100%;
     width: 24%;
 }
 .comboheader{
@@ -491,7 +492,7 @@ h1{
     justify-content: center;
 }
 .combobody{
-    height: 60vh;
+    height: 60%;
     width: 100%;
     background-color: whitesmoke;
     text-align: left;
@@ -568,8 +569,8 @@ footer{
 }
 .socialicons a{
     color: white;
-    background-color: #17cf38;
-    border-radius: 50px;
+    /* background-color: #17cf38;
+    border-radius: 50px; */
     padding: 20px 20px 10px 10px;
 }
 .footerdown{
