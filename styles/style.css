@@ -330,6 +330,14 @@ h1{
     height: 100%;
     width: 90%;
     background-color: #fbfbfb;
+    display: none;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.photoonlyoptions.show{
+    height: 100%;
+    width: 90%;
+    background-color: #fbfbfb;
     display: flex;
     margin: 10px auto;
     justify-content: space-between;
@@ -396,6 +404,14 @@ h1{
     height: 100%;
     width: 90%;
     background-color: #fbfbfb;
+    display: none;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.filmonlyoptions.show{
+    height: 100%;
+    width: 90%;
+    background-color: #fbfbfb;
     display: flex;
     margin: 10px auto;
     justify-content: space-between;
@@ -457,6 +473,14 @@ h1{
 /* Packages: Photo + Video*/
 
 .combooptions{
+    height: 100%;
+    width: 90%;
+    background-color: #fbfbfb;
+    display: none;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.combooptions.show{
     height: 100%;
     width: 90%;
     background-color: #fbfbfb;
