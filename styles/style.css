@@ -659,6 +659,7 @@ footer{
 .portcol1_pic1{
     background: url(/img/DSC_0232.JPG) center center/cover no-repeat;
 }
+
 .portcol1_pic2{
     background: url(/img/photo_2019-08-19_22-09-54.jpg) center center/cover no-repeat;
 }
@@ -671,6 +672,11 @@ footer{
 .portcol2_pic1{
     background: url(/img/1320427702499.jpg) center no-repeat;
 }
+/* .portcol2_pic1:hover{
+    background: url(/img/1320427702499.jpg) center no-repeat;
+    cursor: pointer;
+    
+} */
 .portcol2_pic2{
     background: url(/img/photo_2019-08-19_22-07-20.jpg) center center/cover no-repeat;
 }
